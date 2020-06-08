@@ -64,13 +64,13 @@ while True:
             query = f'''
 
              INSERT INTO news_api
-             (source, author, title, description, url, urltoimage, published_at, content, ticker)
+             (source, author, title, description, url, urltoimage, published_at, content, search_term)
              VALUES
              ($${df['source'][i]}$$, $${df['author'][i]}$$,
              $${df['title'][i]}$$, $${df['description'][i]}$$,
              $${df['url'][i]}$$, $${df['urlToImage'][i]}$$,
              $${df['publishedAt'][i]}$$, $${df['content'][i]}$$,
-             $${df['ticker'][i]}$$)
+             $${df['search_term'][i]}$$)
 
             '''
 
