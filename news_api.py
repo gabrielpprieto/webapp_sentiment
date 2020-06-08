@@ -36,7 +36,7 @@ while True:
             # create dataframe with information
             i_df = pd.DataFrame(all_articles['articles'])
 
-            # add ticker column
+            # add search_term column
             i_df['search_term'] = search_term
 
             # concatenate dataframes for all pages
