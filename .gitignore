@@ -1,3 +1,5 @@
 config.py
 functions.py
 news_scraping.ipynb
+.ipynb_checkpoints
+__pycache__
